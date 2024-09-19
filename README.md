@@ -1,7 +1,8 @@
 # Rocero_PA-4
 
 # ECE BOARD EXAM PROBLEM
-image.png
+![image](https://github.com/user-attachments/assets/b555ca10-e216-4709-8148-4f3a63b14e0b)
+
 ``` Pyhton
 #Import pandas as library
 import pandas as pd
