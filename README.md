@@ -3,11 +3,10 @@
 # ECE BOARD EXAM PROBLEM
 ![image](https://github.com/user-attachments/assets/b555ca10-e216-4709-8148-4f3a63b14e0b)
 
-``` Pyhton
+``` Python
 #Import pandas as library
 import pandas as pd
-```
-``` Python
+
 #Input of the board2.xlsx file
 df = pd. read_excel ("board2.xlsx" )
 
