@@ -15,7 +15,8 @@ df = pd. read_excel ("board2.xlsx" )
 df ['Average'] = df.mean (numeric_only=True, axis=1)
 df
 ```
-![image](https://github.com/user-attachments/assets/5c2f5fc9-cf3b-4ada-a890-383e6d29b935)
+![image](https://github.com/user-attachments/assets/cb7bd45e-1615-4598-955b-753b5cf65c6e)
+
 
 ## a. Filename: Instru = [“Name”, “GEAS”, “Electronics >70”]; where track is constant as Instrumentation and hometown Luzon
 ``` Python
