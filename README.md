@@ -6,10 +6,12 @@
 ``` Python
 #Import pandas as library
 import pandas as pd
-
+```
+``` Python
 #Input of the board2.xlsx file
 df = pd. read_excel ("board2.xlsx" )
-
+```
+``` Python
 #Calculate the average of their scores
 df ['Average'] = df.mean (numeric_only=True, axis=1)
 df
@@ -21,19 +23,15 @@ df
 ``` Python
 #Function to print the instruction asked.
 print("Instru")
-
+```
+``` Python
 #Sort the Luzon students by using Instrumentation as their track.
 #To see the same output as the provided output, select the desired columns.
 
 Instru = df.loc[(df.Track=="Instrumentation") & (df.Hometown=="Luzon") & (df.Electronics>70), ['Name', 'GEAS' , 'Electronics']]
 Instru
-
-Instru
-Name	GEAS	Electronics
-0	S1	75	89
-7	S8	64	81
-29	S30	57	81
 ```
+![image](https://github.com/user-attachments/assets/80179ab3-07b4-490a-b2de-8277a948aec4)
 
 ## b. Filename: Mindy = [ “Name”, “Track”, “Electronics”, “Average >=55”]; where hometown is constant as Mindanao and gender Female
 ``` Python
