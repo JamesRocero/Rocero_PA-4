@@ -3,7 +3,7 @@
 # ECE BOARD EXAM PROBLEM
 ![image](https://github.com/user-attachments/assets/b555ca10-e216-4709-8148-4f3a63b14e0b)
 
-##### Import pandas as library
+##### •Import pandas as library
 ``` Python
 import pandas as pd
 ```
@@ -50,7 +50,7 @@ Mindy
 ``` Python
 import matplotlib.pyplot as plt
 ```
-#### #Print the graph showing the chosen track's correlation with grades using this function.
+##### Print the graph showing the chosen track's correlation with grades using this function.
 ``` Python
 plt.figure (figsize=(5,6))
 plt.bar (df ['Track'], df ['Average'])
@@ -59,6 +59,8 @@ plt.ylabel ("Average")
 plt.title ("Table 1.1: The relationship of chosen track in college .")
 Text(0.5, 1.0, 'Table 1.1: The relationship of chosen track in college .')
 ```
+![image](https://github.com/user-attachments/assets/0a256894-5fcc-414f-b7d2-b36200b9a726)
+
 ##### This function prints a graph showing the relationship between grades and the selected track.
 ``` Python
 plt.figure (figsize=(5,6))
@@ -68,6 +70,8 @@ plt.ylabel ("Average")
 plt.title ("Table 1.2: The relationship of gender and average grade.")
 Text(0.5, 1.0, 'Table 1.2: The relationship of gender and average grade.')
 ```
+![image](https://github.com/user-attachments/assets/de8f790c-8b18-4879-b4a2-867d972cea62)
+
 ##### Print the graph showing the link between grades and this function.
 ``` Python
 plt.figure(figsize=(5,6))
@@ -77,3 +81,4 @@ plt.ylabel ("Average")
 plt.title ("Table 1.3: The relationship of hometown and average grade.")
 Text(0.5, 1.0, 'Table 1.3: The relationship of hometown and average grade.')
 ```
+![image](https://github.com/user-attachments/assets/89a7ff9a-d74b-4b92-89ba-dafcb4dc299e)
